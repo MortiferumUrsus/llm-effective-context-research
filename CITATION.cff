@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this study or its analysis, please cite the technical report."
+title: "Effective Context in LLM Systems: An Empirical Study Across Tasks and Processing Methods"
+type: software
+authors:
+  - family-names: Sadovskiy
+    given-names: Mikhail
+repository-code: "https://github.com/MortiferumUrsus/llm-effective-context-research"
+version: "1.0.0"
+license: MIT
+preferred-citation:
+  type: report
+  authors:
+    - family-names: Sadovskiy
+      given-names: Mikhail
+  title: "Effective Context in LLM Systems: An Empirical Study Across Tasks and Processing Methods"
+  year: 2026
+  url: "https://github.com/MortiferumUrsus/llm-effective-context-research"
+  notes: "Independent technical report. Research conducted in spring 2026."

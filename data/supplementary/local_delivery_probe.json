@@ -1,0 +1,128 @@
+{
+  "study": "November 2026 local delivery diagnostic",
+  "model": "research-minicpm5-1b:20261102",
+  "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+  "server_version": {
+    "version": "0.21.0"
+  },
+  "raw_prompt": true,
+  "chat_template": "{{ .Prompt }}",
+  "capabilities": [
+    "completion"
+  ],
+  "context_metadata": {
+    "llama.context_length": 131072
+  },
+  "source_sha256": "89fd82326643e4d072abf0941ea692d96991e2dae839e2f6cdd217a00e4371e7",
+  "prompt_recipe": "The word 'the' repeated words times, followed by one newline.",
+  "observations": [
+    {
+      "timestamp": "2026-11-02T12:47:58.919267+00:00",
+      "words": 512,
+      "requested_context": 1024,
+      "prompt_sha256": "b223d044a106fd9456afa39d013caae3cdb8e95237f0ef79a43737d1eb3e8bf2",
+      "prompt_eval_count": 513,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 1024,
+          "size_vram": 865824768
+        }
+      ],
+      "elapsed_seconds": 55.48327830003109
+    },
+    {
+      "timestamp": "2026-11-02T12:48:02.012294+00:00",
+      "words": 512,
+      "requested_context": 16384,
+      "prompt_sha256": "b223d044a106fd9456afa39d013caae3cdb8e95237f0ef79a43737d1eb3e8bf2",
+      "prompt_eval_count": 513,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 16384,
+          "size_vram": 1555789824
+        }
+      ],
+      "elapsed_seconds": 3.091709800006356
+    },
+    {
+      "timestamp": "2026-11-02T12:48:05.685565+00:00",
+      "words": 2048,
+      "requested_context": 1024,
+      "prompt_sha256": "6a424cbc31130b39925d794a395fa7bab0ea84d66ce10a6286e46d24733305ea",
+      "prompt_eval_count": 1024,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 1024,
+          "size_vram": 865824768
+        }
+      ],
+      "elapsed_seconds": 3.6728922999463975
+    },
+    {
+      "timestamp": "2026-11-02T12:48:10.526906+00:00",
+      "words": 2048,
+      "requested_context": 16384,
+      "prompt_sha256": "6a424cbc31130b39925d794a395fa7bab0ea84d66ce10a6286e46d24733305ea",
+      "prompt_eval_count": 2049,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 16384,
+          "size_vram": 1555789824
+        }
+      ],
+      "elapsed_seconds": 4.841116499970667
+    },
+    {
+      "timestamp": "2026-11-02T12:48:14.159952+00:00",
+      "words": 8192,
+      "requested_context": 1024,
+      "prompt_sha256": "e6d53fbc2bf0074f43e6dd4744d7e6527ed01243fbc5a64142c436b059a82aba",
+      "prompt_eval_count": 1024,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 1024,
+          "size_vram": 865824768
+        }
+      ],
+      "elapsed_seconds": 3.6322090000030585
+    },
+    {
+      "timestamp": "2026-11-02T12:48:29.900282+00:00",
+      "words": 8192,
+      "requested_context": 16384,
+      "prompt_sha256": "e6d53fbc2bf0074f43e6dd4744d7e6527ed01243fbc5a64142c436b059a82aba",
+      "prompt_eval_count": 8193,
+      "output_tokens": 1,
+      "done_reason": "length",
+      "runtime": [
+        {
+          "name": "research-minicpm5-1b:20261102",
+          "digest": "426989094eebd18a2ba3ab05919f6da5d5085153b52dbdb4141ea5a73e00ef8d",
+          "context_length": 16384,
+          "size_vram": 1555789824
+        }
+      ],
+      "elapsed_seconds": 15.739697900018655
+    }
+  ]
+}

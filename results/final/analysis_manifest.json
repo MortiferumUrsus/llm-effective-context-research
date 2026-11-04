@@ -1,0 +1,20 @@
+{
+  "attempted": 9800,
+  "retained": 9506,
+  "excluded": 294,
+  "dates": [
+    "2026-05-16T21:19:54Z",
+    "2026-05-18T05:57:18Z"
+  ],
+  "analysis_date": "2026-11-02",
+  "original_study_period": "Spring 2026",
+  "inference": "Historical exploratory observations; fixed model set. BABILong clusters are exact-prefix families, not guaranteed independent source episodes.",
+  "cell_intervals": "Nominal Wilson intervals assuming independent Bernoulli observations within each cell; story dependence limits this interpretation.",
+  "cluster_intervals": "20000 percentile draws, seed 20261102; sensitivity analysis, not simultaneous confidence bands. Degenerate intervals on saturated NIAH are uninformative and should not imply exact certainty.",
+  "report_scope": "Effective context across tasks and processing methods",
+  "capacity_estimates": "None. Observed profiles and threshold-pattern descriptions only.",
+  "observation_sha256": "3da6e26656ba95efb3212a071dec1d8a395ca382745f94b90adbac9d9fe501c3",
+  "source_mapping_sha256": "337e3515ce3b77f25754e0e20c7d04143ef75c629acd75741b9d3080e3932310",
+  "paired_lengths": "Same source task, different source configurations/backgrounds; not isolated length effects. Repeated identical inputs averaged; fixed models; lexicographically ordered prefix clusters; 20000 draws; seed 20261102.",
+  "threshold_pattern": "0.5 is a descriptive legacy cutoff, not a validated utility requirement or a confidence bound."
+}

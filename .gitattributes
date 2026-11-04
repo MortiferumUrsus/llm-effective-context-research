@@ -1,0 +1,5 @@
+# Preserve the exact bytes recorded in MANIFEST.json on every platform.
+* -text
+*.pdf binary
+*.png binary
+*.gz binary

@@ -1,0 +1,101 @@
+{
+  "author": "Mikhail Sadovskiy",
+  "original_study_period": "Spring 2026",
+  "export_date": "2026-11-02",
+  "file": "observations.csv.gz",
+  "sha256": "3da6e26656ba95efb3212a071dec1d8a395ca382745f94b90adbac9d9fe501c3",
+  "bytes": 341964,
+  "rows": 9800,
+  "retained": 9506,
+  "original_manifest": "analysis/final_manifest_v6_2.yaml",
+  "original_manifest_sha256": "9940d41ebefb289f3ab9996533922942d8f37031f05aed3e9c694568db608307",
+  "original_api_sources": [
+    {
+      "path": "logs/exp6_main_deepseek-v3.jsonl",
+      "selected_rows": 400,
+      "sha256": "9f2cd17ab068e5b7aa28c6856459743ebc34dc1ef8d3b620d1a39e62e866ef53"
+    },
+    {
+      "path": "logs/exp6_main_gemini-2.5-flash.jsonl",
+      "selected_rows": 400,
+      "sha256": "d6e09c190d5869f7b9b671ab21d0dc5de381d72b0454014a66419ce41d2edd17"
+    },
+    {
+      "path": "logs/exp6_main_gpt-4o-mini.jsonl",
+      "selected_rows": 400,
+      "sha256": "388a9282b845308320e6f88cc947dd80c5eec8681d91e16b68f8aa854d177c99"
+    },
+    {
+      "path": "logs/exp6_main_qwen-2.5-72b.jsonl",
+      "selected_rows": 400,
+      "sha256": "df247f50c17d168d6689a73b8545f6b1ef3446a1eacb6549aefdb2b05f4d9129"
+    },
+    {
+      "path": "logs/exp6_main_qwen-2.5-7b.jsonl",
+      "selected_rows": 400,
+      "sha256": "a3cd6359b8d19ad922068f75aa393e3a382c6a82cca1abd26db70372bff680f1"
+    },
+    {
+      "path": "logs/exp6_phase1_banking77_deepseek-v3.jsonl",
+      "selected_rows": 600,
+      "sha256": "6b143310a931485f65f10837eaa189f6a3d00c1bb156993e80e7e352ddc5b2b7"
+    },
+    {
+      "path": "logs/exp6_phase1_banking77_gemini-2.5-flash.jsonl",
+      "selected_rows": 600,
+      "sha256": "fc9678d80d0bf5f367baf763c77dda47bf438df4bf0373fae6db81243d49a901"
+    },
+    {
+      "path": "logs/exp6_phase1_banking77_gpt-4o-mini.jsonl",
+      "selected_rows": 600,
+      "sha256": "ddb0f6125c7762f250c0f3f425cfb9d7a6c9fa36d463f3da84ca55374acdab10"
+    },
+    {
+      "path": "logs/exp6_phase1_banking77_llama-3.1-70b.jsonl",
+      "selected_rows": 600,
+      "sha256": "61d2063d7fafe8486723c54daf978ec8212ad44ebf78ab37f09427eabeca18b2"
+    },
+    {
+      "path": "logs/exp6_phase1_banking77_llama-3.1-8b.jsonl",
+      "selected_rows": 600,
+      "sha256": "e5924cee770e6432a6102322071f3af4c4d3fcca0a83efacd6b6427c57fed8a3"
+    },
+    {
+      "path": "logs/exp6_phase1_babilong_deepseek-v3.jsonl",
+      "selected_rows": 600,
+      "sha256": "2130293b1c107c0f9f700fe73c8563b060988cc947e54edf716ffbb322e841bf"
+    },
+    {
+      "path": "logs/exp6_phase1_babilong_gemini-2.5-flash.jsonl",
+      "selected_rows": 600,
+      "sha256": "a9b216588720b9c51b65f62b57081ed3f414a948d33031f7f7547b6ea3c1cd89"
+    },
+    {
+      "path": "logs/exp6_phase1_babilong_gpt-4o-mini.jsonl",
+      "selected_rows": 600,
+      "sha256": "7542728f6ebf0e04db98effbfd6513355c1faa8dae710212cae0fe16a6a08fba"
+    },
+    {
+      "path": "logs/exp6_phase1_babilong_llama-3.1-70b.jsonl",
+      "selected_rows": 600,
+      "sha256": "d0a94f104eca7a62b783e5f9b6796d6aec419b9684f084d4e36a91eb860ca7d1"
+    },
+    {
+      "path": "logs/exp6_phase1_babilong_llama-3.1-8b.jsonl",
+      "selected_rows": 600,
+      "sha256": "f04966c39fe9caa8abcaea9087e3e189ab721947b89e02b6f938a1e889a931fa"
+    },
+    {
+      "path": "logs/exp6_phase2_qwen3_niah_banking77_qwen3-next-80b.jsonl",
+      "selected_rows": 1200,
+      "sha256": "08d2191d2cd9a13cf3c9e2180c6ec5bbc88bb936031520c51dcd2682543a461b"
+    },
+    {
+      "path": "logs/exp6_phase2_qwen3_babilong_qwen3-next-80b.jsonl",
+      "selected_rows": 600,
+      "sha256": "598ea4d181d9f7b214a97cb8c62e3a385aa2ecb4c7892b4b584ae1a1a5f57070"
+    }
+  ],
+  "transform": "Explicit field allowlist. Original scores and output strings preserved. Provider error bodies and intermediate traces excluded. Missing early NIAH gold answers recovered only after exact historical input-hash matches. Derived task-group IDs added.",
+  "analysis_source_sha256": "cd70f247519df47d1c9aefa612fd251ae433742c3a5e3b1cfdc09f7952edb762"
+}

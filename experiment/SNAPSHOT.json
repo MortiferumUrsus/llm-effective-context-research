@@ -1,0 +1,92 @@
+{
+  "snapshot_date": "2026-11-02",
+  "kind": "available implementation for inspection",
+  "historical_replay": false,
+  "files": [
+    {
+      "path": "bench/niah.py",
+      "workspace_sha256": "ea7677785bfd338ef05c03737eada107b9e28af87a0112bc4e21e334d9addb95",
+      "inspection_sha256": "ea7677785bfd338ef05c03737eada107b9e28af87a0112bc4e21e334d9addb95",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "bench/babilong.py",
+      "workspace_sha256": "173070635d333d24409dc75b3948a419c1553d74590f9bb8669eb2a5ae5ec8bc",
+      "inspection_sha256": "2082f1d01bf1f0d8c28bf1da8b3ba878b23e0a3a4e5425bff6251005b02f4040",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "bench/banking77_icl.py",
+      "workspace_sha256": "6520a33ff3af1a1b4a59f4741841f877e8607df97774b1709af16ab6386fa9d8",
+      "inspection_sha256": "1bdcf283ef4cd8a3600ab93f9119785aec9d875f9eb9705c8ce0542a048d23ca",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "bench/utils.py",
+      "workspace_sha256": "2fa2c3ac4d5bd71e36c7ee7fc763699072720ee7dedb8560d09162a2e1754a6b",
+      "inspection_sha256": "2fa2c3ac4d5bd71e36c7ee7fc763699072720ee7dedb8560d09162a2e1754a6b",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "llm/base.py",
+      "workspace_sha256": "b30ea4bd083df7e670e0d0a1bf1e2cb2e73bdb1b6bedcd933dd209637c9fc6a9",
+      "inspection_sha256": "b30ea4bd083df7e670e0d0a1bf1e2cb2e73bdb1b6bedcd933dd209637c9fc6a9",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "llm/openrouter_adapter.py",
+      "workspace_sha256": "f8589752b7c1ae677d5e34701bd4fe13521064d951cc628cabc788e54c4e5ccf",
+      "inspection_sha256": "f8589752b7c1ae677d5e34701bd4fe13521064d951cc628cabc788e54c4e5ccf",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "procedures/common.py",
+      "workspace_sha256": "a1a81ea0915c4320b6a2c016e9d723f996facba8839a1ee7d1120b673721299d",
+      "inspection_sha256": "a1a81ea0915c4320b6a2c016e9d723f996facba8839a1ee7d1120b673721299d",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "procedures/A0_baseline.py",
+      "workspace_sha256": "a24a98f59a44c57640cfe002dcf07ae33a2a0a1e0307a40387a9023f3bb82290",
+      "inspection_sha256": "a24a98f59a44c57640cfe002dcf07ae33a2a0a1e0307a40387a9023f3bb82290",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "procedures/A_rag.py",
+      "workspace_sha256": "4ba7c22270b1d0b14fbb583e5b204d0163bca029b2abb38fb37bcadad844aac4",
+      "inspection_sha256": "4ba7c22270b1d0b14fbb583e5b204d0163bca029b2abb38fb37bcadad844aac4",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "procedures/A_react.py",
+      "workspace_sha256": "cf340d6f514f9ee533ae18f9bf71629bb8fa77e11093eba0c16daa522f23ed74",
+      "inspection_sha256": "1a216c0cefb5283be6dff8b1764f21b93c8e9059566623c4439567180bb98a00",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "procedures/A_memgpt.py",
+      "workspace_sha256": "c3240ba84b62fd279f0e58bc37f9359070172d6690aa867d68dad8c8aaa0a542",
+      "inspection_sha256": "8e74b1267abde550b9ace8640891f58fb685086a8af666772e398d1836a276a3",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "runner/episode.py",
+      "workspace_sha256": "c4dec0352b4cd79fcfab97254b846297cf149579b1a762888c9fbad6d6a19da6",
+      "inspection_sha256": "c4dec0352b4cd79fcfab97254b846297cf149579b1a762888c9fbad6d6a19da6",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "prompts/memgpt_packer2023/memgpt_doc.txt",
+      "workspace_sha256": "f008103eab94171d4f749ce34953bee49b7ef8b5896c13679235c0027b0464a6",
+      "inspection_sha256": "734c7d7e35f63920c99d70d8cfa84b5b11dcde2389ca49468435fe0ddf80bc14",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    },
+    {
+      "path": "prompts/react_yao2023/webthink_simple6.txt",
+      "workspace_sha256": "4655bda64dce52b9fb4ea47007ca7b97a68e82327ef300f81eed1103c69c9244",
+      "inspection_sha256": "4655bda64dce52b9fb4ea47007ca7b97a68e82327ef300f81eed1103c69c9244",
+      "change": "English documentation normalization; executable statements and prompt strings retained"
+    }
+  ],
+  "note": "Workspace code includes November revisions. This is not an exact source snapshot of the spring responses."
+}

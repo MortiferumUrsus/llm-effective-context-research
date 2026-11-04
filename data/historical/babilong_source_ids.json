@@ -1,0 +1,886 @@
+{
+  "validation": {
+    "matched_haystacks": 145,
+    "underlying_task_ids": 88,
+    "checks": "Every short-task sentence occurs in order in the matched long input; question and target agree. All 145 passed.",
+    "short_task_source": "https://huggingface.co/datasets/RMT-team/babilong/resolve/main/data/qa2/0k.json",
+    "short_task_sha256": "7baae649af9883d84eeaec422d847064cf136b3de3eebcc08ea6d75af39c60e9",
+    "cached_long_dataset_revision": "ee0d588794c7ac098062ee0d247c733d62e94fe2",
+    "note": "Historical cache recovery, not proof that the original runner pinned this revision.",
+    "exact_prefix_pairs_between_selected_short_inputs": 20,
+    "prefix_family_count": 70,
+    "prefix_family_note": "Connected components of exact short-story prefix relations among selected task IDs. Sensitivity grouping, not recovered original generator episode IDs."
+  },
+  "items": {
+    "ce6b5d29aceae3f1": {
+      "config": "16k",
+      "row_index": 6,
+      "word_count": 11096,
+      "prefix_family_id": 6
+    },
+    "b913df4e9aa23bb7": {
+      "config": "16k",
+      "row_index": 7,
+      "word_count": 10473,
+      "prefix_family_id": 7
+    },
+    "4301a97fd11ae300": {
+      "config": "16k",
+      "row_index": 4,
+      "word_count": 11478,
+      "prefix_family_id": 4
+    },
+    "74efe7db0260e2ab": {
+      "config": "16k",
+      "row_index": 5,
+      "word_count": 10704,
+      "prefix_family_id": 5
+    },
+    "15c812761980afaf": {
+      "config": "16k",
+      "row_index": 2,
+      "word_count": 10056,
+      "prefix_family_id": 2
+    },
+    "e5616b602b2ad777": {
+      "config": "16k",
+      "row_index": 3,
+      "word_count": 10841,
+      "prefix_family_id": 2
+    },
+    "08a0b6cb1b5a4e15": {
+      "config": "16k",
+      "row_index": 0,
+      "word_count": 10309,
+      "prefix_family_id": 0
+    },
+    "5c077250718d5682": {
+      "config": "16k",
+      "row_index": 1,
+      "word_count": 11514,
+      "prefix_family_id": 1
+    },
+    "7b82ee769d4808a0": {
+      "config": "16k",
+      "row_index": 98,
+      "word_count": 11275,
+      "prefix_family_id": 96
+    },
+    "72e230b5b58945e0": {
+      "config": "16k",
+      "row_index": 99,
+      "word_count": 11362,
+      "prefix_family_id": 99
+    },
+    "4b0917fc46163038": {
+      "config": "16k",
+      "row_index": 96,
+      "word_count": 10306,
+      "prefix_family_id": 96
+    },
+    "3c9f0bf15e3aac27": {
+      "config": "16k",
+      "row_index": 97,
+      "word_count": 11471,
+      "prefix_family_id": 96
+    },
+    "454bf52655dbbfae": {
+      "config": "16k",
+      "row_index": 94,
+      "word_count": 10341,
+      "prefix_family_id": 94
+    },
+    "17f2fa04abf58974": {
+      "config": "16k",
+      "row_index": 95,
+      "word_count": 9787,
+      "prefix_family_id": 95
+    },
+    "ed51d0f801000e3d": {
+      "config": "16k",
+      "row_index": 92,
+      "word_count": 11278,
+      "prefix_family_id": 92
+    },
+    "d1ce7db154db201a": {
+      "config": "16k",
+      "row_index": 93,
+      "word_count": 10332,
+      "prefix_family_id": 92
+    },
+    "2b1b1f0151aca81a": {
+      "config": "16k",
+      "row_index": 90,
+      "word_count": 10765,
+      "prefix_family_id": 90
+    },
+    "7143285bd48f076e": {
+      "config": "16k",
+      "row_index": 91,
+      "word_count": 11235,
+      "prefix_family_id": 91
+    },
+    "6a1abefbcc6c84e2": {
+      "config": "16k",
+      "row_index": 87,
+      "word_count": 11525,
+      "prefix_family_id": 87
+    },
+    "5395e6e8a99ed83a": {
+      "config": "16k",
+      "row_index": 89,
+      "word_count": 10872,
+      "prefix_family_id": 89
+    },
+    "c69444d4ffbbb226": {
+      "config": "16k",
+      "row_index": 85,
+      "word_count": 10790,
+      "prefix_family_id": 84
+    },
+    "4a50fbf47eb93c07": {
+      "config": "16k",
+      "row_index": 86,
+      "word_count": 10598,
+      "prefix_family_id": 84
+    },
+    "d36162aeb9549163": {
+      "config": "16k",
+      "row_index": 81,
+      "word_count": 10035,
+      "prefix_family_id": 81
+    },
+    "39a10a4325a2c700": {
+      "config": "16k",
+      "row_index": 82,
+      "word_count": 10408,
+      "prefix_family_id": 81
+    },
+    "e79398ddb69262ca": {
+      "config": "16k",
+      "row_index": 79,
+      "word_count": 9239,
+      "prefix_family_id": 79
+    },
+    "eb2825976cb580d5": {
+      "config": "16k",
+      "row_index": 80,
+      "word_count": 10257,
+      "prefix_family_id": 80
+    },
+    "efb2298fdb1fb7d9": {
+      "config": "16k",
+      "row_index": 77,
+      "word_count": 9199,
+      "prefix_family_id": 77
+    },
+    "f9f905e87ca92dc7": {
+      "config": "16k",
+      "row_index": 78,
+      "word_count": 10053,
+      "prefix_family_id": 77
+    },
+    "5fcd8d612c4d8392": {
+      "config": "16k",
+      "row_index": 74,
+      "word_count": 11238,
+      "prefix_family_id": 74
+    },
+    "c500c2075f9cc5c9": {
+      "config": "16k",
+      "row_index": 76,
+      "word_count": 11198,
+      "prefix_family_id": 76
+    },
+    "cd792f8101fc9297": {
+      "config": "16k",
+      "row_index": 60,
+      "word_count": 11636,
+      "prefix_family_id": 60
+    },
+    "7759da28e879cd2c": {
+      "config": "16k",
+      "row_index": 61,
+      "word_count": 10556,
+      "prefix_family_id": 61
+    },
+    "43270f25b4460b97": {
+      "config": "16k",
+      "row_index": 58,
+      "word_count": 11663,
+      "prefix_family_id": 58
+    },
+    "f701753ff3eececc": {
+      "config": "16k",
+      "row_index": 59,
+      "word_count": 10923,
+      "prefix_family_id": 59
+    },
+    "8ed82d4ae5676e95": {
+      "config": "16k",
+      "row_index": 56,
+      "word_count": 11787,
+      "prefix_family_id": 56
+    },
+    "a20c80c2bbff217f": {
+      "config": "16k",
+      "row_index": 57,
+      "word_count": 10608,
+      "prefix_family_id": 56
+    },
+    "f8c94d4010864177": {
+      "config": "16k",
+      "row_index": 54,
+      "word_count": 11412,
+      "prefix_family_id": 54
+    },
+    "bf867ca8c02658b3": {
+      "config": "16k",
+      "row_index": 55,
+      "word_count": 10238,
+      "prefix_family_id": 55
+    },
+    "c268ee92536297a7": {
+      "config": "16k",
+      "row_index": 52,
+      "word_count": 10789,
+      "prefix_family_id": 52
+    },
+    "775d44c2f2ef5623": {
+      "config": "16k",
+      "row_index": 53,
+      "word_count": 11353,
+      "prefix_family_id": 53
+    },
+    "8b03ebdb13eb1dad": {
+      "config": "16k",
+      "row_index": 50,
+      "word_count": 11130,
+      "prefix_family_id": 50
+    },
+    "98da5652aebb8fdf": {
+      "config": "16k",
+      "row_index": 51,
+      "word_count": 11031,
+      "prefix_family_id": 50
+    },
+    "4bc41d703f5d6897": {
+      "config": "16k",
+      "row_index": 48,
+      "word_count": 11023,
+      "prefix_family_id": 47
+    },
+    "26d9256f69ab4e98": {
+      "config": "16k",
+      "row_index": 49,
+      "word_count": 11489,
+      "prefix_family_id": 49
+    },
+    "6bb4ed45ca169d13": {
+      "config": "16k",
+      "row_index": 46,
+      "word_count": 11883,
+      "prefix_family_id": 46
+    },
+    "60d5d20f7e7d5bf2": {
+      "config": "16k",
+      "row_index": 47,
+      "word_count": 9109,
+      "prefix_family_id": 47
+    },
+    "94ef1e16db667edd": {
+      "config": "16k",
+      "row_index": 44,
+      "word_count": 10602,
+      "prefix_family_id": 44
+    },
+    "b00bed664f31a8e1": {
+      "config": "16k",
+      "row_index": 45,
+      "word_count": 11250,
+      "prefix_family_id": 45
+    },
+    "02802a9746a06d7e": {
+      "config": "16k",
+      "row_index": 42,
+      "word_count": 11278,
+      "prefix_family_id": 42
+    },
+    "ad5eb405ac976f74": {
+      "config": "16k",
+      "row_index": 43,
+      "word_count": 11478,
+      "prefix_family_id": 43
+    },
+    "b1dc37acea0ccb09": {
+      "config": "16k",
+      "row_index": 40,
+      "word_count": 10869,
+      "prefix_family_id": 40
+    },
+    "9cae172ec2898e94": {
+      "config": "16k",
+      "row_index": 41,
+      "word_count": 11220,
+      "prefix_family_id": 41
+    },
+    "551d95f61091931a": {
+      "config": "16k",
+      "row_index": 36,
+      "word_count": 11246,
+      "prefix_family_id": 36
+    },
+    "f3bada64e866f819": {
+      "config": "16k",
+      "row_index": 37,
+      "word_count": 8447,
+      "prefix_family_id": 37
+    },
+    "cd48597310ab383a": {
+      "config": "16k",
+      "row_index": 33,
+      "word_count": 11143,
+      "prefix_family_id": 33
+    },
+    "78b03a052558cbfd": {
+      "config": "16k",
+      "row_index": 35,
+      "word_count": 11249,
+      "prefix_family_id": 34
+    },
+    "44bbb00a48140c4e": {
+      "config": "16k",
+      "row_index": 31,
+      "word_count": 10943,
+      "prefix_family_id": 31
+    },
+    "1bd73d069d73e1fc": {
+      "config": "16k",
+      "row_index": 32,
+      "word_count": 11266,
+      "prefix_family_id": 31
+    },
+    "f9173d639c6881f9": {
+      "config": "16k",
+      "row_index": 29,
+      "word_count": 10721,
+      "prefix_family_id": 29
+    },
+    "e7113d9ae4c6b6bf": {
+      "config": "16k",
+      "row_index": 30,
+      "word_count": 10742,
+      "prefix_family_id": 29
+    },
+    "2ce6ec5e7e5bd7e6": {
+      "config": "32k",
+      "row_index": 69,
+      "word_count": 22469,
+      "prefix_family_id": 69
+    },
+    "ca18ad7212834a55": {
+      "config": "32k",
+      "row_index": 70,
+      "word_count": 21796,
+      "prefix_family_id": 70
+    },
+    "cb3625647bc8e899": {
+      "config": "32k",
+      "row_index": 67,
+      "word_count": 22461,
+      "prefix_family_id": 67
+    },
+    "78cec6b5e7035f1a": {
+      "config": "32k",
+      "row_index": 68,
+      "word_count": 22793,
+      "prefix_family_id": 68
+    },
+    "7c84be19736e8023": {
+      "config": "32k",
+      "row_index": 65,
+      "word_count": 22895,
+      "prefix_family_id": 65
+    },
+    "680df4eea0be8c1e": {
+      "config": "32k",
+      "row_index": 66,
+      "word_count": 21531,
+      "prefix_family_id": 66
+    },
+    "cff1da562bb0e37a": {
+      "config": "32k",
+      "row_index": 63,
+      "word_count": 22395,
+      "prefix_family_id": 63
+    },
+    "ab05fbb4ddfc12fa": {
+      "config": "32k",
+      "row_index": 64,
+      "word_count": 23464,
+      "prefix_family_id": 63
+    },
+    "79d98708977bcb3e": {
+      "config": "32k",
+      "row_index": 61,
+      "word_count": 19709,
+      "prefix_family_id": 61
+    },
+    "0f75a437ac08dad6": {
+      "config": "32k",
+      "row_index": 62,
+      "word_count": 22370,
+      "prefix_family_id": 61
+    },
+    "fec8c07a0abbc9fb": {
+      "config": "32k",
+      "row_index": 59,
+      "word_count": 21620,
+      "prefix_family_id": 59
+    },
+    "cd0b9596cf7cb290": {
+      "config": "32k",
+      "row_index": 60,
+      "word_count": 20830,
+      "prefix_family_id": 60
+    },
+    "3d51c4a4e9eef40d": {
+      "config": "32k",
+      "row_index": 57,
+      "word_count": 17667,
+      "prefix_family_id": 56
+    },
+    "6fe1cc3f96d4e3c5": {
+      "config": "32k",
+      "row_index": 58,
+      "word_count": 21482,
+      "prefix_family_id": 58
+    },
+    "22e199bd242e2b90": {
+      "config": "32k",
+      "row_index": 55,
+      "word_count": 21129,
+      "prefix_family_id": 55
+    },
+    "134f6243d0638460": {
+      "config": "32k",
+      "row_index": 56,
+      "word_count": 17916,
+      "prefix_family_id": 56
+    },
+    "93edeb8dda353eb4": {
+      "config": "32k",
+      "row_index": 53,
+      "word_count": 20160,
+      "prefix_family_id": 53
+    },
+    "d2e24c0f3665456c": {
+      "config": "32k",
+      "row_index": 54,
+      "word_count": 19542,
+      "prefix_family_id": 54
+    },
+    "61da180f0424e79a": {
+      "config": "32k",
+      "row_index": 51,
+      "word_count": 22230,
+      "prefix_family_id": 50
+    },
+    "92cbf7324f951245": {
+      "config": "32k",
+      "row_index": 52,
+      "word_count": 22437,
+      "prefix_family_id": 52
+    },
+    "d4dfd783d5888509": {
+      "config": "32k",
+      "row_index": 49,
+      "word_count": 22330,
+      "prefix_family_id": 49
+    },
+    "6b6c21c08cf444a6": {
+      "config": "32k",
+      "row_index": 50,
+      "word_count": 21866,
+      "prefix_family_id": 50
+    },
+    "e594ccecdb289147": {
+      "config": "32k",
+      "row_index": 47,
+      "word_count": 21772,
+      "prefix_family_id": 47
+    },
+    "0e5b55f93f5d64e7": {
+      "config": "32k",
+      "row_index": 48,
+      "word_count": 22804,
+      "prefix_family_id": 47
+    },
+    "a55debf046caa876": {
+      "config": "32k",
+      "row_index": 45,
+      "word_count": 21244,
+      "prefix_family_id": 45
+    },
+    "910de63883a954c3": {
+      "config": "32k",
+      "row_index": 46,
+      "word_count": 20319,
+      "prefix_family_id": 46
+    },
+    "ee011c25b0510b15": {
+      "config": "32k",
+      "row_index": 43,
+      "word_count": 23566,
+      "prefix_family_id": 43
+    },
+    "460c475f5553b1df": {
+      "config": "32k",
+      "row_index": 44,
+      "word_count": 22617,
+      "prefix_family_id": 44
+    },
+    "0eb4e94fd1b73c06": {
+      "config": "32k",
+      "row_index": 41,
+      "word_count": 21938,
+      "prefix_family_id": 41
+    },
+    "6b627c67708b8771": {
+      "config": "32k",
+      "row_index": 42,
+      "word_count": 22426,
+      "prefix_family_id": 42
+    },
+    "6485f917d522e591": {
+      "config": "32k",
+      "row_index": 36,
+      "word_count": 22488,
+      "prefix_family_id": 36
+    },
+    "a604b83c59efb53f": {
+      "config": "32k",
+      "row_index": 33,
+      "word_count": 22702,
+      "prefix_family_id": 33
+    },
+    "f2a23093ec72b09c": {
+      "config": "32k",
+      "row_index": 34,
+      "word_count": 22609,
+      "prefix_family_id": 34
+    },
+    "1c8ac756400381c9": {
+      "config": "32k",
+      "row_index": 31,
+      "word_count": 23624,
+      "prefix_family_id": 31
+    },
+    "19eceb0e190ed7e7": {
+      "config": "32k",
+      "row_index": 32,
+      "word_count": 22433,
+      "prefix_family_id": 31
+    },
+    "d6ca5cd5a2155756": {
+      "config": "32k",
+      "row_index": 27,
+      "word_count": 23301,
+      "prefix_family_id": 27
+    },
+    "2e4e11a4bcc139e5": {
+      "config": "32k",
+      "row_index": 28,
+      "word_count": 22583,
+      "prefix_family_id": 28
+    },
+    "5d608fa1919b3427": {
+      "config": "32k",
+      "row_index": 24,
+      "word_count": 23131,
+      "prefix_family_id": 24
+    },
+    "04b0391e901a09e1": {
+      "config": "32k",
+      "row_index": 26,
+      "word_count": 23131,
+      "prefix_family_id": 26
+    },
+    "2682bc378905ea46": {
+      "config": "32k",
+      "row_index": 22,
+      "word_count": 22706,
+      "prefix_family_id": 22
+    },
+    "949a1b4e87bc1d60": {
+      "config": "32k",
+      "row_index": 23,
+      "word_count": 22974,
+      "prefix_family_id": 23
+    },
+    "569c3b8eb9bb7d09": {
+      "config": "32k",
+      "row_index": 18,
+      "word_count": 23813,
+      "prefix_family_id": 18
+    },
+    "af08b51317bee630": {
+      "config": "32k",
+      "row_index": 21,
+      "word_count": 22973,
+      "prefix_family_id": 21
+    },
+    "c7a69283cce4342a": {
+      "config": "32k",
+      "row_index": 14,
+      "word_count": 23917,
+      "prefix_family_id": 14
+    },
+    "f22e1955b3840cf2": {
+      "config": "32k",
+      "row_index": 16,
+      "word_count": 22736,
+      "prefix_family_id": 16
+    },
+    "c6c1b209a3c95cca": {
+      "config": "32k",
+      "row_index": 12,
+      "word_count": 22714,
+      "prefix_family_id": 11
+    },
+    "82c057ba654fe8a5": {
+      "config": "32k",
+      "row_index": 13,
+      "word_count": 22675,
+      "prefix_family_id": 13
+    },
+    "7e1eb1c439dff73d": {
+      "config": "32k",
+      "row_index": 5,
+      "word_count": 23466,
+      "prefix_family_id": 5
+    },
+    "88524dc605f8c9f3": {
+      "config": "32k",
+      "row_index": 11,
+      "word_count": 23284,
+      "prefix_family_id": 11
+    },
+    "cad734133404a363": {
+      "config": "32k",
+      "row_index": 2,
+      "word_count": 23423,
+      "prefix_family_id": 2
+    },
+    "007f71ec6e9d7ee0": {
+      "config": "32k",
+      "row_index": 3,
+      "word_count": 23724,
+      "prefix_family_id": 2
+    },
+    "dace29183526f743": {
+      "config": "32k",
+      "row_index": 0,
+      "word_count": 22846,
+      "prefix_family_id": 0
+    },
+    "68c374d9e8d28719": {
+      "config": "32k",
+      "row_index": 1,
+      "word_count": 22573,
+      "prefix_family_id": 1
+    },
+    "276dda6f870d95d9": {
+      "config": "32k",
+      "row_index": 98,
+      "word_count": 22817,
+      "prefix_family_id": 96
+    },
+    "02b677901f825717": {
+      "config": "32k",
+      "row_index": 99,
+      "word_count": 23664,
+      "prefix_family_id": 99
+    },
+    "45a783c8fc0ee811": {
+      "config": "64k",
+      "row_index": 18,
+      "word_count": 45965,
+      "prefix_family_id": 18
+    },
+    "64f54b0f71715c91": {
+      "config": "64k",
+      "row_index": 19,
+      "word_count": 45355,
+      "prefix_family_id": 18
+    },
+    "1ceb72522e711633": {
+      "config": "64k",
+      "row_index": 16,
+      "word_count": 46194,
+      "prefix_family_id": 16
+    },
+    "df0c21e1faddc4ed": {
+      "config": "64k",
+      "row_index": 17,
+      "word_count": 45830,
+      "prefix_family_id": 17
+    },
+    "1defe5197eddf39b": {
+      "config": "64k",
+      "row_index": 12,
+      "word_count": 46912,
+      "prefix_family_id": 11
+    },
+    "e730b9e6e016f3cc": {
+      "config": "64k",
+      "row_index": 13,
+      "word_count": 47455,
+      "prefix_family_id": 13
+    },
+    "7710cccc069b816b": {
+      "config": "64k",
+      "row_index": 7,
+      "word_count": 46252,
+      "prefix_family_id": 7
+    },
+    "5003e478d3ca5e1c": {
+      "config": "64k",
+      "row_index": 9,
+      "word_count": 45404,
+      "prefix_family_id": 9
+    },
+    "7c0d9674550f7e64": {
+      "config": "64k",
+      "row_index": 2,
+      "word_count": 44807,
+      "prefix_family_id": 2
+    },
+    "f6f3ca703d5708d0": {
+      "config": "64k",
+      "row_index": 3,
+      "word_count": 45374,
+      "prefix_family_id": 2
+    },
+    "d52ccc2e47cbb3eb": {
+      "config": "64k",
+      "row_index": 0,
+      "word_count": 45900,
+      "prefix_family_id": 0
+    },
+    "8ba93236298de564": {
+      "config": "64k",
+      "row_index": 1,
+      "word_count": 46094,
+      "prefix_family_id": 1
+    },
+    "0cc63951e3d3dbd3": {
+      "config": "64k",
+      "row_index": 95,
+      "word_count": 45534,
+      "prefix_family_id": 95
+    },
+    "818c7cd805dedc91": {
+      "config": "64k",
+      "row_index": 97,
+      "word_count": 45427,
+      "prefix_family_id": 96
+    },
+    "97ea18c9a0a5df70": {
+      "config": "64k",
+      "row_index": 92,
+      "word_count": 44886,
+      "prefix_family_id": 92
+    },
+    "1293a8fd880a609c": {
+      "config": "64k",
+      "row_index": 93,
+      "word_count": 45276,
+      "prefix_family_id": 92
+    },
+    "dfe6b1690a5065a3": {
+      "config": "64k",
+      "row_index": 89,
+      "word_count": 46360,
+      "prefix_family_id": 89
+    },
+    "e9d4aff1613dcabe": {
+      "config": "64k",
+      "row_index": 90,
+      "word_count": 45665,
+      "prefix_family_id": 90
+    },
+    "0522c66773c8224e": {
+      "config": "64k",
+      "row_index": 84,
+      "word_count": 45872,
+      "prefix_family_id": 84
+    },
+    "dd2ba1ebfce57683": {
+      "config": "64k",
+      "row_index": 88,
+      "word_count": 47923,
+      "prefix_family_id": 88
+    },
+    "f254de8feb1f667f": {
+      "config": "64k",
+      "row_index": 78,
+      "word_count": 46095,
+      "prefix_family_id": 77
+    },
+    "2c91682d609ee9d5": {
+      "config": "64k",
+      "row_index": 79,
+      "word_count": 46508,
+      "prefix_family_id": 79
+    },
+    "3a85de722309e95e": {
+      "config": "64k",
+      "row_index": 69,
+      "word_count": 45213,
+      "prefix_family_id": 69
+    },
+    "a29dedf7342f5bfa": {
+      "config": "64k",
+      "row_index": 74,
+      "word_count": 45398,
+      "prefix_family_id": 74
+    },
+    "c1b595c6b04229f7": {
+      "config": "64k",
+      "row_index": 62,
+      "word_count": 47572,
+      "prefix_family_id": 61
+    },
+    "7486078277d0712c": {
+      "config": "64k",
+      "row_index": 67,
+      "word_count": 46042,
+      "prefix_family_id": 67
+    },
+    "237dceec456614f0": {
+      "config": "64k",
+      "row_index": 58,
+      "word_count": 46327,
+      "prefix_family_id": 58
+    },
+    "ef10cf2dd50c3095": {
+      "config": "64k",
+      "row_index": 60,
+      "word_count": 46484,
+      "prefix_family_id": 60
+    },
+    "0bbedc57d1121d83": {
+      "config": "64k",
+      "row_index": 53,
+      "word_count": 46639,
+      "prefix_family_id": 53
+    },
+    "e5b34dea3b6d8351": {
+      "config": "64k",
+      "row_index": 54,
+      "word_count": 45357,
+      "prefix_family_id": 54
+    }
+  }
+}
